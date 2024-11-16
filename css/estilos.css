@@ -1,0 +1,77 @@
+*{
+    margin: 0px 0px;
+}
+
+header{
+    background-color: #a3a656;
+    padding: 0px 0px;
+    height: 70px;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.Menu{
+    display: flex;
+    font-family: sans-serif;
+    align-content: center;
+    font-size: 0.9rem;
+}
+
+.Menu ul{
+    padding-left:70px;
+    display: flex;
+    align-items: center;
+}
+
+.Menu ul li {
+    list-style: none;
+    padding: 0px 20px 0px 0px;
+}
+
+.Menu ul li :hover{
+    color:#FFFF00;
+}
+
+.Menu ul li a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.Cuenta-Idioma{
+    display: flex;
+    align-items: center;
+}
+
+.Cuenta{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    height: 100%;
+    padding-right: 30px;
+}
+
+.Cuenta img{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    display: inline;    
+}
+
+.tiny-text{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    font-size: 0.7rem;
+    font-family: sans-serif;
+}
+
+.Idioma{
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+    height: 100%;
+}
+
+
+
