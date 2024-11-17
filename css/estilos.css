@@ -21,13 +21,15 @@ header{
     font-family: 'Inter', sans-serif;
     font-weight: normal;
     font-size: 16px;
-    font-variant: small-caps;
 }
 
 .ft-titulo2{
     font-family: 'Inter', sans-serif;
-    font-weight: bold;
-    font-size: 16px;
+    font-weight: 600;
+    font-size: 32px;
+    color: black;
+    display: flex;
+    align-items: center;
 }
 
 .ft-placeholder{
@@ -36,6 +38,25 @@ header{
     font-size: 16px;
     color: #9E9A9A;
     padding-left: 15px;
+}
+
+.button-main{
+    background-color: #A3A656;
+    border: none;
+    border-radius: 35px;
+    height: 100%;
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-main:hover{
+    background-color: #384001;
 }
 
 .Menu{
@@ -155,20 +176,48 @@ header{
 
 .Card-Container {
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin: 100px 70px 50px 70px;
+    justify-content: center;
+    gap: 134px;
+    margin: 100px 50px 50px 50px;
 }
 
 .Card{
     border-radius: 15px 15px 0px 0px;
-    width: 250px;
-    height: 500px;
+    width: 350px;
+    height: 440px;
     border: 1px solid #FF0000;
 }
 
 .CardTitle{
+    display: flex;
+    justify-content: center;
     text-align: center;
+    height: 75px;
     border-radius: 15px 15px 0px 0px;
     background-color: #A3A656;
+}
+
+.CardImage img{
+    height: 100%;
+    width: 100%;
+}
+
+.CardDesc {
+    padding-top: 10px;
+}
+
+.CardButtonPrice{
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.CardPrice{
+    padding-left: 10px;
+}
+
+.CardButton {
+    width: 150px;
+    height: 45px;
 }
