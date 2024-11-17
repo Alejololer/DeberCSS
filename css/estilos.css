@@ -324,6 +324,10 @@ footer{
     color: #A3A656;
 }
 
+.InfoFooter ul li a:hover{
+    color: #FFFF00;
+}
+
 .RedesSociales{
     display: flex;
     align-content: center;
