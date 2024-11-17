@@ -185,7 +185,6 @@ header{
     border-radius: 15px 15px 0px 0px;
     width: 350px;
     height: 440px;
-    border: 1px solid #FF0000;
 }
 
 .CardTitle{
@@ -220,4 +219,131 @@ header{
 .CardButton {
     width: 150px;
     height: 45px;
+}
+
+.Planes{
+    background-color: #F2F6F6;
+    height: 770px;
+}
+
+.Planes h2 {
+    display: block;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.Plan-Container {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px 0 0 0;
+}
+
+.Plan {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.PlanImg {
+    width: 255px;
+    height: 255px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Borde {
+    width: calc(100% - 20px); 
+    height: calc(100% - 20px);
+    border: 10px solid #384001;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    box-sizing: content-box;
+}
+
+.Simbolo {
+    width: 233px;
+    height: 233px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Simbolo img {
+    width: 120px;
+    height: 120px;
+}
+
+.PlanTitulo {
+    margin-top: 5px;
+    padding-top: 5px;
+}
+
+.PlanButton {
+    width: 300px;
+    height: 55px;
+    margin-top: 20px;
+}
+
+footer{
+    height:97px;
+    background-color: #384001;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.InfoFooter{
+    padding-left: 70px;
+    display: flex;
+    align-content: center;
+}
+
+.InfoFooter ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 0;
+}
+
+.InfoFooter ul li{
+    list-style: none;
+    padding: 0px 50px 0px 0px;
+    white-space: nowrap;
+}
+
+.InfoFooter ul li a{
+    text-decoration: none;
+    color: #A3A656;
+}
+
+.RedesSociales{
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+.RedesTexto{
+    text-align: center;
+    padding-right: 30px;
+    white-space: nowrap;
+}
+
+.RedesLogos{
+    display: flex;
+    align-items: center;
+}
+
+.RedesLogos img{
+    padding-right: 50px;    
+    width: 41px;
+    height: 45px;
+    object-fit: contain;  
 }
