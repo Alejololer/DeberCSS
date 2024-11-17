@@ -11,12 +11,36 @@ header{
     justify-content: space-between;
 }
 
+.ft-mini{
+    font-family: 'Inter', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.ft-menu{
+    font-family: 'Inter', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    font-variant: small-caps;
+}
+
+.ft-titulo2{
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.ft-placeholder{
+    font-family: 'Inter', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    color: #9E9A9A;
+    padding-left: 15px;
+}
+
 .Menu{
     display: flex;
-    font-family: 'Inter', sans-serif;
     align-content: center;
-    font-size: 16px;
-    font-weight: normal;
 }
 
 .Menu ul{
@@ -52,19 +76,20 @@ header{
     padding-right: 30px;
 }
 
+.Cuenta div a{
+    text-decoration: none;
+    color: black;
+}
+
+.Cuenta div a:hover{
+    color:#FFFF00;
+}
+
 .Cuenta img{
     width: 50px;
     height: 50px;
     margin-right: 10px;
     display: inline;    
-}
-
-.tiny-text{
-    display: flex;
-    align-items: center;
-    height: 100%;
-    font-size: 0.7rem;
-    font-family: sans-serif;
 }
 
 .Idioma{
@@ -114,5 +139,36 @@ header{
     text-align: left;
 }
 
+.Reserva-Codigo{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    background-color: #F2F6F6;
+    justify-content: center;
+}
 
+.Reserva-Codigo input {
+    border-radius: 15px;
+    height: 55px;
+    border: none;
+}
 
+.Card-Container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 100px 70px 50px 70px;
+}
+
+.Card{
+    border-radius: 15px 15px 0px 0px;
+    width: 250px;
+    height: 500px;
+    border: 1px solid #FF0000;
+}
+
+.CardTitle{
+    text-align: center;
+    border-radius: 15px 15px 0px 0px;
+    background-color: #A3A656;
+}
