@@ -3,7 +3,7 @@
 }
 
 header{
-    background-color: #a3a656;
+    background-color: #A3A656;
     padding: 0px 0px;
     height: 70px;
     display: flex;
@@ -13,9 +13,10 @@ header{
 
 .Menu{
     display: flex;
-    font-family: sans-serif;
+    font-family: 'Inter', sans-serif;
     align-content: center;
-    font-size: 0.9rem;
+    font-size: 16px;
+    font-weight: normal;
 }
 
 .Menu ul{
@@ -71,6 +72,46 @@ header{
     align-items: center;
     padding: 0px 10px;
     height: 100%;
+}
+
+.ImagenPrincipal-TextoPrincipal {
+    position: relative;
+    width: 100%;
+}
+
+.ImagenPrincipal {
+    width: 100%;
+    position: relative;
+}
+
+.ImagenPrincipal img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.TextoPrincipal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-102%, -83%);
+    text-align: center;
+    color: black;
+}
+
+.TextoPrincipal h1 {
+    font-family: 'Romanesco', cursive;
+    font-size: 96px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.TextoPrincipal h2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    text-align: left;
 }
 
 
